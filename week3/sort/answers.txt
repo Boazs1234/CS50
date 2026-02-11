@@ -1,0 +1,20 @@
+sort1 uses: bubble sort
+
+10000: reversed = 0.22s, random = 0.21s, sorted = 0.043s
+50000: reversed = 4.92s, random = 5.58s, sorted = 0.53s
+
+How do you know?: we can see that worst case scenario n is big (n^2), but best case scenario n is very small (n)
+
+sort2 uses: merge sort
+
+10000: reversed = 0.12s, random = 0.048s, sorted = 0.041s
+50000: reversed = 0.42s, random = 0.53s, sorted = 0.517s
+
+How do you know?: we can see that worst case scenario n is small (nlog(n)) and the same as best case scenario n is small (nlog(n))
+
+sort3 uses: selection sort
+
+10000: reversed = 0.13s, random = 0.12s, sorted = 0.13s
+50000: reversed = 2.49s, random = 2.24s, sorted = 2.22s
+
+How do you know?: we can see that worst case scenario n is big (n^2), but best case scenario n is also big (n^2)
