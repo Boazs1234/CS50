@@ -1,0 +1,132 @@
+<!doctype html>
+
+<html lang="en">
+  <head>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+    <link href="styles.css" rel="stylesheet" />
+    <title>Boazsafdie</title>
+  </head>
+  <body>
+    <header>
+      <h1>Boaz Safdie</h1>
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="./about.html">About</a></li>
+          <li><a href="./contact.html">Contact</a></li>
+          <li><a href="./now.html">Now</a></li>
+        </ul>
+      </nav>
+      <button onclick="runDarkMode()">DarkMode</button>
+    </header>
+    <maim>
+      <section>
+        <div class="container col-xxl-8 px-4 py-5">
+          <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+            <div class="col-10 col-sm-8 col-lg-6">
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/c/cc/Harvard_University_coat_of_arms.svg"
+                class="d-block mx-lg-auto img-fluid"
+                alt="Bootstrap Themes"
+                width="300"
+                height="300"
+                loading="lazy"
+              />
+            </div>
+            <div class="col-lg-6">
+              <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">
+                The best school in the world
+              </h1>
+              <p class="lead">
+                Harvard University is a private Ivy League research university
+                in Cambridge, Massachusetts, United States. Founded in 1636 as
+                New College, and later named for its first benefactor, the
+                Puritan clergyman John Harvard, it is the oldest institution of
+                higher learning in the United States.
+              </p>
+              <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+                <a href="./about.html">
+                  <button
+                    type="button"
+                    class="btn btn-primary btn-lg px-4 me-md-2"
+                  >
+                    Read my stoy
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container px-4 py-5" id="featured-3">
+          <h2 class="pb-2 border-bottom">CS50 languages</h2>
+          <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+            <div class="feature col">
+              <div
+                class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3"
+              >
+                <svg class="bi" width="1em" height="1em" aria-hidden="true">
+                  <use xlink:href="#collection"></use>
+                </svg>
+              </div>
+              <h3 class="fs-2 text-body-emphasis">C</h3>
+              <p>
+                The C programming language is a general-purpose, procedural, and
+                imperative computer programming language, widely used for system
+                programming tasks where speed, efficiency, and direct hardware
+                access are important.
+              </p>
+            </div>
+            <div class="feature col">
+              <div
+                class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3"
+              >
+                <svg class="bi" width="1em" height="1em" aria-hidden="true">
+                  <use xlink:href="#people-circle"></use>
+                </svg>
+              </div>
+              <h3 class="fs-2 text-body-emphasis">Python</h3>
+              <p>
+                Python is a popular, high-level, general-purpose programming
+                language known for its simple, readable syntax that emphasizes
+                productivity and is used across a variety of domains.
+              </p>
+            </div>
+            <div class="feature col">
+              <div
+                class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3"
+              >
+                <svg class="bi" width="1em" height="1em" aria-hidden="true">
+                  <use xlink:href="#toggles2"></use>
+                </svg>
+              </div>
+              <h3 class="fs-2 text-body-emphasis">JavaScript</h3>
+              <p>
+                JavaScript is a versatile, high-level programming language and
+                one of the core technologies of the World Wide Web, alongside
+                HTML and CSS. It is primarily known for enabling interactive web
+                pages.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </maim>
+    <footer>Copyright - Boaz Safdie 2026</footer>
+    <script>
+      function runDarkMode() {
+  var element = document.body;
+  element.classList.toggle("dark-mode");
+}
+    </script>
+  </body>
+</html>

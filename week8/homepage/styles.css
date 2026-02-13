@@ -1,0 +1,30 @@
+body{
+    background-color: lightblue;
+    width: 80%;
+    margin: auto;
+}
+
+header{
+    text-align: center;
+}
+
+nav > ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+nav > ul > li > a {
+    text-decoration: none;
+}
+
+footer{
+    text-align: center;
+}
+
+.dark-mode {
+  background-color: grey !important;
+  color: white !important;
+}
